@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <cn.iwgang.countdownview.CountdownView
+        android:id="@+id/competitionTimer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        app:suffixGravity="center"
+        app:suffixTextColor="@color/white"
+        app:suffixTextSize="16dp"
+        app:isHideTimeBackground="false"
+        app:isShowDay="true"
+        app:suffixLRMargin="7dp"
+        app:isShowHour="true"
+        app:isShowMinute="true"
+        app:isShowSecond="true"
+        app:timeTextColor="@color/white"
+        app:timeTextSize="18dp"
+        app:isTimeTextBold="true"
+        app:timeBgDivisionLineSize="20dp"
+        app:timeBgBorderColor="@color/white"
+        app:timeBgBorderRadius="20dp"
+        app:suffixDay="d"
+        app:suffixHour="h"
+        app:suffixMinute="m"
+        app:suffixSecond="s"
+        app:isShowTimeBgDivisionLine="false"
+        app:timeBgDivisionLineColor="@color/white"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
